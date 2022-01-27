@@ -1,0 +1,55 @@
+.destion-rwo{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 10px;
+}
+.title-dec{
+    width: fit-content;
+    margin: 40px auto;
+    text-align: center;
+}
+.title-dec span{
+ text-transform: capitalize;
+ letter-spacing: 2px;
+}
+.title-dec h2{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+@media(max-width:567px){
+    .title-dec h2{
+        font-size: 15px;
+    }
+}
+.blogse img{
+    width: 100%;
+    height: 200px;
+}
+.blogse {
+    background-color: var(--mincolo);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 2px var(--main-color);
+}
+.blogse span{
+    color: white;
+    display: block;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.blogse p{
+    color: gray;
+    line-height: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.icow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icow span,i{
+    color:var(--main-color);
+}

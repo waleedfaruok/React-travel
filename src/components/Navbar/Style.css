@@ -1,0 +1,123 @@
+
+:root{
+    --main-color: rgb(0, 247, 255);
+}
+.headere{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    transition: all .2s ease-in-out;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title a{
+ display: block;
+ text-transform: capitalize;
+ text-decoration: none;
+ color: white;
+ font-size: 25px;
+}
+.title i{
+    display: block;
+    font-size: 25px;
+    margin-right: 5px;
+    color: var(--main-color);
+}
+.lis-nav{
+    display: flex;
+    list-style: none;
+}
+@media(max-width:567px){
+    .lis-nav{
+        display: none;
+    }
+}
+@media(max-width:767px){
+    .lis-nav{
+        display: none;
+    }
+}
+.lis-nav li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 0 10px;
+    transition: opacity .3s ease-in-out ;
+}
+.lis-nav li a:hover{
+  color: var(--main-color);
+  opacity: .6;
+}
+.bok-new button{
+    background: none;
+    border: none;
+    color: var(--main-color);
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  opacity .3s ease-in-out ;
+    text-transform: capitalize;
+}
+.bok-new button:hover{
+  opacity: .6;
+}
+.lis-nav1{
+    position: absolute;
+    top: 73px;
+    right: 0;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    display: none;
+}
+.lis-nav1 li a{
+    text-decoration: none;
+ display: block;
+ margin: 15px 0;
+ color: white;
+ margin-left: 10px;
+ text-transform: capitalize;
+ transition: all .3s ease-in-out ;
+ font-size: 14px;
+
+}
+.lis-nav1 li a:hover{
+    color: var(--main-color);
+    opacity: .6;
+    padding-left: 5px;
+}
+.btn-nt{
+    position: fixed;
+    right: -50px;
+    bottom: 10px;
+    background: none;
+    border: none;
+    text-transform: capitalize;
+    color: black;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.btn-nt.add{
+    right: 10px;
+}

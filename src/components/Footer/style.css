@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:567px){
+    .footer-row{
+        flex-direction: column;
+    }
+}
+@media(max-width:767px){
+    .footer-row{
+        flex-direction: column;
+    }
+}
+@media(max-width:991px){
+    .footer-row{
+        flex-direction: column;
+    }
+}
+.travel .trev{
+display: flex;
+align-items: center;
+margin-bottom: 5px;
+}
+.travel {
+    margin-top: 30px;
+}
+.travel p{
+    color: white;
+    font-size: 12px;
+    width: 300px;
+    line-height: 20px;
+}
+.trev i{
+    display: block;
+    font-size: 16px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.trev p{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 100px;
+}
+.icon {
+ display: flex;
+ align-items: center;
+ margin-top: 10px;
+}
+.icon i{
+     width: 20px;
+     height: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+    font-size: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.quick{
+    margin-top: 30px;
+    max-width: 300px;
+}
+.quick h2{
+    color: white;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.quick a{
+    display: block;
+    color: white;
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.quick a:hover{
+    color: var(--main-color);
+    padding-left: 5px;
+}
+.address h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.address{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.mumber{
+    display: flex;
+    align-items: center;
+}
+.mumber p{
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.mumber i{
+    display: block;
+    margin: 15px 5px 0;
+}
+.news-in {
+    margin-top: 30px;
+}
+.news-in h2{
+ color: white;
+ text-transform: capitalize;
+}
+.news-in p{
+  color: white;
+   margin: 10px auto;
+   text-transform: capitalize;
+   font-size: 13px;
+}
+.news-in input{
+ display: block;
+ background: none;
+ outline: none;
+ border: none;
+ border: 1px solid var(--main-color);
+ border-radius: 5px;
+ padding: 5px 10px;
+ color: gray;
+}
+.news-in button{
+ display: block;
+ background: none;
+ outline: none;
+ border: none;
+ border: 1px solid var(--main-color);
+ border-radius: 5px;
+ padding: 2px 10px;
+ margin: 10px 0;
+ color: var(--main-color);
+ text-transform: capitalize;
+ cursor: pointer;
+letter-spacing: 1px;
+}
+
+.link{
+    background-color: var(--mincolo);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link a{
+color: white;
+font-size: 13px;
+margin: 10px auto;
+}
+.link span{
+display: inline;
+text-transform: capitalize;
+}

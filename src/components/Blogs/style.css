@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.blogs-post{
+    width: fit-content;
+    margin: 40px auto;
+    text-align: center;
+}
+.blogs-post span{
+   display: block;
+   color: var(--main-color);
+   font-size: 20px;
+   text-transform: capitalize;
+
+}
+.blogs-post h1{
+color: white;
+text-transform: capitalize;
+letter-spacing: 2px;
+}
+.blogw-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 10px;
+}
+
+.blog img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+}
+.blog{
+    background-color: var(--mincolo);
+}
+.blog span{
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+.blog p{
+    color: gray;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+.iconse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-span{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 5px;
+}
+.icon-span span{
+display: block;
+font-size: 14px;
+}
+.icon-span i{
+ display: block;
+}
+ .cloe span{
+    color: var(--main-color);
+}
