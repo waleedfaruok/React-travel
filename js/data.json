@@ -1,0 +1,195 @@
+{
+    "section":[
+        {
+            "id":1,
+            "img":"image/tref8.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        },
+        {
+            "id":2,
+            "img":"image/tref2.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        },
+        {
+            "id":3,
+            "img":"image/tref12.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        },
+        {
+            "id":4,
+            "img":"image/tref13.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        },
+        {
+            "id":5,
+            "img":"image/tref14.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        },
+        {
+            "id":6,
+            "img":"image/tref11.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        },
+        {
+            "id":7,
+            "img":"image/tref10.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        },
+        {
+            "id":8,
+            "img":"image/tref9.jpg",
+            "prgrav":"tours & travel",
+            "links":"make yours Destination our Destination",
+            "spnes":"read more",
+            "icons":"fas fa-angle-double-right"
+        }
+    ],
+    "server":[
+        {
+            "id":1,
+            "icon":"fas fa-plane",
+            "title":"worldwide",
+            "articl":"lorem and react from react js countless experience our services"
+        },
+        {
+            "id":2,
+            "icon":"fas fa-recycle",
+            "title":"adventures",
+            "articl":"lorem and react from react js countless experience our services"
+        },
+        {
+            "id":3,
+            "icon":"fas fa-download",
+            "title":"food & drinks",
+            "articl":"lorem and react from react js countless experience our services"
+        },
+        {
+            "id":4,
+            "icon":"fas fa-bus",
+            "title":"affordable hoteis",
+            "articl":"lorem and react from react js countless experience our services"
+        },
+        {
+            "id":5,
+            "icon":"fas fa-dolly",
+            "title":"affordable price",
+            "articl":"lorem and react from react js countless experience our services"
+        },
+        {
+            "id":6,
+            "icon":"fas fa-tractor",
+            "title":"24/7 services",
+            "articl":"lorem and react from react js countless experience our services"
+        }
+    ],
+    "gallery":[
+        {
+            "id":1,
+            "img":"image/tref9.jpg"
+        },
+        {
+            "id":2,
+            "img":"image/tref4.jpg"
+        },
+        {
+            "id":3,
+            "img":"image/tref10.jpg"
+        },
+        {
+            "id":4,
+            "img":"image/tref11.jpg"
+        },
+        {
+            "id":5,
+            "img":"image/tref13.jpg"
+        },
+        {
+            "id":6,
+            "img":"image/tref15.jpg"
+        }
+    ],
+    "team":[
+        {
+            "id":1,
+            "articl":"lorem we input heare clos defualt extend good news from our clients",
+            "img":"image/tem1.jpg",
+            "joen":"john deo",
+            "degin":"designsr"
+        },
+        {
+            "id":2,
+            "articl":"lorem we input heare clos defualt extend good news from our clients",
+            "img":"image/tem2.jpg",
+            "joen":"john deo",
+            "degin":"designsr"
+        },
+        {
+            "id":3,
+            "articl":"lorem we input heare clos defualt extend good news from our clients",
+            "img":"image/tem3.jpg",
+            "joen":"john deo",
+            "degin":"designsr"
+        },
+        {
+            "id":4,
+            "articl":"lorem we input heare clos defualt extend good news from our clients",
+            "img":"image/tem4.jpg",
+            "joen":"john deo",
+            "degin":"designsr"
+        }
+    ],
+    "blogs":[
+        {
+            "id":1,
+            "img":"image/plog1.jpg",
+            "lif":"life is a journey not a destinatio",
+            "title":"lorem welcome from egypt life is a journey not a destinatio",
+            "icon":"fas fa-pause-circle",
+            "icob":"2lst may 2021",
+            "icons":"fas fa-user-alt",
+            "admin":"by admin"
+        },
+        {
+            "id":2,
+            "img":"image/blog.jpg",
+            "lif":"life is a journey not a destinatio",
+            "title":"lorem welcome from egypt life is a journey not a destinatio",
+            "icon":"fas fa-pause-circle",
+            "icob":"2lst may 2021",
+            "icons":"fas fa-user-alt",
+            "admin":"by admin"
+        },
+        {
+            "id":3,
+            "img":"image/plog3.jpg",
+            "lif":"life is a journey not a destinatio",
+            "title":"lorem welcome from egypt life is a journey not a destinatio",
+            "icon":"fas fa-pause-circle",
+            "icob":"2lst may 2021",
+            "icons":"fas fa-user-alt",
+            "admin":"by admin"
+        }
+    ]
+}
+
